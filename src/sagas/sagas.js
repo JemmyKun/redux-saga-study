@@ -8,10 +8,10 @@ import axios from "axios";
 import { getSagaType, getReducerType } from "../utils/sagaType";
 
 const meetingInfo =
-  "/L1_mtp/meeting/getMeetingInfo?mid=348029583107072&token=16361b2d-4fa8-4f94-b0ec-31b8ed20ddbe";
-const isNeedPwd = "L1_mtp/meeting/isExistMeetingPassword";
+  "/api/aaa";
+const isNeedPwd = "/api/bbb";
 const getStatus =
-  "/L1_mtp/meeting/getAudioStatus?id=348029583107072&t=1558056935869";
+  "/api/ccc";
 
 function* checkPwd(action) {
   let _action = action;
